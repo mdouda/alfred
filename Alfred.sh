@@ -17,7 +17,7 @@ tail -fn0 $serv/$channel/out | \
 while read line
 do
 	echo "$line" | grep "has joined"
-  if [ $? = 0 ]
+	if [ $? = 0 ]
 	then
 		recados=$(ls recados)
 		usuario=$(echo $line | awk -F '[(@]' '{print $2}')
