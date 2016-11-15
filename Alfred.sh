@@ -61,8 +61,8 @@ do
 
 			ayuda )
 				echo "Soy un robot tonto hecho en bash basado en el programa ii" > $chat
-				echo "El programa ii tiene licencia GNU/GPL2.0 al igual que yo" > $chat
-				echo "Tengo disponibles los siguientes comandos:" > $chat
+				echo "El programa ii tiene licencia GNU/GPL 3.0 al igual que yo" > $chat
+	`			echo "Tengo disponibles los siguientes comandos:" > $chat
 				echo "hola__________________________Hola" > $chat
 				echo "di____________________________Hazme decir algo" > $chat
 				echo "fortuna_______________________Decir una frase aleatoria" > $chat
