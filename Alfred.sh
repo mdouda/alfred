@@ -1,6 +1,6 @@
 channel="#channel" 		### Canal donde vive el bot
 directory="./irc" 		### ./irc
-domain="freejolitos.com"	### e.g. freejolitos.com
+domain="SITIO"			### e.g. freejolitos.com
 serv="$directory/SERVERNAME" 	### Variable para alojar el directorio por servidor
 chat="$serv/$channel/in" 	### File handle a donde escribe el bot
 password="123456" 		### Pass del robot y de ident. con NickServ
